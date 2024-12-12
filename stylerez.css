@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: yellow;
+}
+.preheader{
+    background-color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: yellow;
+    height: 70px;
+    padding: 20px;
+    text-align: center;
+
+}
+.preheader a{
+    text-decoration: none;
+    color:yellow;
+}
+
+.preheader {
+    list-style: none;
+}
+.preheader  li{
+    margin: 0px 10px;
+    display: inline-block;
+    padding-top: 4px;
+    
+
+}
+.preheader  li a{
+    text-decoration: none;
+    color: yellow;
+}
+.preheader li a:hover {
+    color: gray;
+    transition: 0.2s;
+}
+.reservation-form {
+    margin-left: 570px;
+    margin-top: 80px;
+    width: 800px;
+    height: 600px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.reservation-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #FFD700;
+}
+.reservation-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #FFD700;
+}
+.reservation-form input, .reservation-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.reservation-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+.reservation-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.reservation-form button:hover {
+    background-color: #808080;
+}
+
+footer{
+    background-color: black;
+    color: yellow;
+    margin-top: 50px;
+}
+footer p{
+    text-align: center;
+    padding: 25px;
+    font-weight: bolder;
+}
+footer ul li{
+    display: inline-block;
+    padding: 25px;
+}
+footer ul li img{
+    width: 50px;
+    height: 50px;
+}

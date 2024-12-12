@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: yellow;
+}
+.preheader{
+    background-color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: yellow;
+    height: 70px;
+    padding: 20px;
+    text-align: center;
+
+}
+.preheader a{
+    text-decoration: none;
+    color:yellow;
+}
+
+.preheader {
+    list-style: none;
+}
+.preheader  li{
+    margin: 0px 10px;
+    display: inline-block;
+    padding-top: 4px;
+    
+
+}
+.preheader  li a{
+    text-decoration: none;
+    color: yellow;
+}
+.preheader li a:hover {
+    color: gray;
+    transition: 0.2s;
+}
+.ispodh{
+    padding: 100px;
+}
+.ispodh h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-right: 200px;
+}
+.ispodh p{
+    margin-top: 50px;
+    text-align: justify;
+    font-weight: bold;
+    margin-right: 200px;
+}
+.ispodh h3{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 200px;
+}
+.ispodh ul{
+    list-style-type: square;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-weight: bold;
+}
+.ispodh .pozadina{
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: black;
+    color: yellow;
+    height: 400px;
+    padding: 50px;
+}
+.ispodh .pozadina2{
+    border-radius: 15px;
+    border: 1px solid yellow;
+    background-color: yellow;
+    color: black;
+    height: 400px;
+    padding: 50px;
+}
+
+.main  h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.main p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.main  .kartica{
+    height: 500px;
+    width: 400px;
+    border: 2px dashed black;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 100px;    
+}
+.main  .kartica img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+.main  .kartica h3{
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+.main .kartica p{
+    text-align: justify;
+    font-size: 12px;
+    margin: 15px 8px;
+    font-weight: bold;
+}
+.main .kartica h4{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.main .kartica button{
+    margin-left: 30%;
+    margin-top: 50px;
+    text-transform: uppercase;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius:40px;
+    background-color: black;
+    color: yellow;
+    font-weight: bold;
+
+}
+.main .kartica button:hover{
+    border: 1px solid black;
+    background-color: yellow;
+    color: black;
+    transition: 0.5s;
+}
+.main .kartica:hover{
+    margin-top: 10px;
+    transition: 1s;
+}
+footer{
+    background-color: black;
+    color: yellow;
+    margin-top: 50px;
+}
+footer p{
+    text-align: center;
+    padding: 25px;
+    font-weight: bolder;
+}
+footer ul li{
+    display: inline-block;
+    padding: 25px;
+}
+footer ul li img{
+    width: 50px;
+    height: 50px;
+}

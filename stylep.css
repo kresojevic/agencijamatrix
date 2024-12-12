@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: yellow;
+}
+.preheader{
+    background-color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: yellow;
+    height: 70px;
+    padding: 20px;
+    text-align: center;
+
+}
+.preheader a{
+    text-decoration: none;
+    color:yellow;
+}
+
+.preheader {
+    list-style: none;
+}
+.preheader  li{
+    margin: 0px 10px;
+    display: inline-block;
+    padding-top: 4px;
+    
+
+}
+.preheader  li a{
+    text-decoration: none;
+    color: yellow;
+}
+.preheader li a:hover {
+    color: gray;
+    transition: 0.2s;
+}
+h2{
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+.kartica{
+    height: 500px;
+    width: 400px;
+    border: 2px dashed black;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 100px;    
+}
+.kartica img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+.kartica h3{
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+.kartica p{
+    text-align: justify;
+    font-size: 12px;
+    margin: 15px 8px;
+    font-weight: bold;
+}
+.kartica h4{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.kartica button{
+    margin-left: 30%;
+    margin-top: 50px;
+    text-transform: uppercase;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius:40px;
+    background-color: black;
+    color: yellow;
+    font-weight: bold;
+
+}
+.kartica button:hover{
+    border: 1px solid black;
+    background-color: yellow;
+    color: black;
+    transition: 0.5s;
+}
+.kartica:hover{
+    margin-top: 10px;
+    transition: 1s;
+}
+
+footer{
+    background-color: black;
+    color: yellow;
+    margin-top: 50px;
+}
+footer p{
+    text-align: center;
+    padding: 25px;
+    font-weight: bolder;
+}
+footer ul li{
+    display: inline-block;
+    padding: 25px;
+}
+footer ul li img{
+    width: 50px;
+    height: 50px;
+}
